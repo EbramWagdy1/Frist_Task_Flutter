@@ -1,16 +1,15 @@
-# frist_task
+# Counter App
 
-A new Flutter project.
+A simple Flutter app that counts up and down automatically between 0 and 20.
 
-## Getting Started
+## Features
+- Increments the number when the button is pressed until it reaches 20.
+- After reaching 20, the counter starts decreasing back to 0.
+- The button icon changes depending on the counting direction.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Make sure Flutter and Dart are installed.
+2. In the terminal, run:
+```bash
+flutter pub get
+flutter run
